@@ -103,7 +103,7 @@ This will start the Membership Service, which should now be available on http://
 - **PUT** `/api/memberships/{uuid}/upgrade`  
   Upgrades membership to GOLD level.
 - **PUT** `/api/memberships/{uuid}/downgrade`  
-  Downgrades membership to GOLD level.
+  Downgrades membership to BASIC level.
 
 ### **Troubleshooting**
 1. Ensure that the Discovery Service is running before starting the Membership service.
